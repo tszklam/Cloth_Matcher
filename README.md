@@ -1,1 +1,1 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7040461&assignment_repo_type=AssignmentRepo)
+This is a course project I completed in 2022, that our team built an APP that match use-clothes owner and allow them to exchange their needs. This is a full-stack dev project which we applied Agile method with multiple API calls like GoogleMap. 
