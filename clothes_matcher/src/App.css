@@ -1,0 +1,143 @@
+.ClothesMatcher-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  font-family: Arial;
+  font-weight: lighter;
+  margin-bottom: 5vh;
+}
+
+
+.button-holder{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.ClothesMatcher-img {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.ClothesMatcher-table{
+  text-align: left;
+  text-justify: distribute;
+  align-content: center;
+  margin: auto;
+  margin-top: 3vh;
+  width: fit-content;
+  height: fit-content;
+  font-family: Arial;
+  font-weight: lighter;
+  font-size: calc(15px + 2vmin);
+}
+
+
+.ClothesMatcher-login-box {
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  border: 2px solid black;
+  height: fit-content;
+  padding: 25px 25px;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.ClothesMatcher-button-small {
+  background: #D0DDE0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-family: Arial;
+  font-size: calc(15px + 1vmin);
+  color: black;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  padding: 5px 15px;
+  margin: auto;
+  justify-content: center;
+}
+.ClothesMatcher-button-small:hover{
+  background: #ACB5B8;
+  border: 2px solid black;
+  color: black;
+}
+.ClothesMatcher-button-small:focus{
+  background: #D0DDE0;
+  border: 2px solid black;
+  color: black;
+}
+
+
+
+.ClothesMatcher-item-link {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0px;
+  font-family: Arial;
+  font-size: calc(18px + 1vmin);
+  color: black;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  justify-content: center;
+}
+.ClothesMatcher-item-link:hover{
+  background: white;
+  color: #ACB5B8;
+}
+
+
+
+/*These portions are for casing on screen size. This part adjusts parameters when the screen
+is a phone screen*/
+@media (min-width:400px) {
+  .ClothesMatcher-login-box {
+    width: 70vw;
+  }
+  .ClothesMatcher-img{
+    width: 70vw;
+    height: 30vh;
+  }
+}
+/*This portion adjusts parameters when the screen is a desktop screen*/
+@media (min-width:1281px) {
+  .ClothesMatcher-login-box {
+    width: fit-content;
+  }
+  .ClothesMatcher-img{
+    width: 30vw;
+    height: 60vh;
+    margin-top: 2vh;
+  }
+}
+
+.ant-table-tbody > tr > td {
+  padding: 0vh 5vw;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
